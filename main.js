@@ -2,28 +2,7 @@ const listTask = document.getElementById("tasks");
 const inputFormTask = document.querySelector("#task");
 const formTask = document.getElementById("formTask");
 
-let tasks = [
-  // {
-  //   id: 1,
-  //   name: "Go to gym",
-  //   completed: true,
-  // },
-  // {
-  //   id: 2,
-  //   name: "Go to shop",
-  //   completed: false,
-  // },
-  // {
-  //   id: 3,
-  //   name: "Go to university",
-  //   completed: false,
-  // },
-  // {
-  //   id: 4,
-  //   name: "Go to walk",
-  //   completed: true,
-  // },
-];
+let tasks = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   loadTasks();
